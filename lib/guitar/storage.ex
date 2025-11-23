@@ -66,7 +66,7 @@ defmodule Guitar.Storage do
     {:noreply, {filename, updated_map}}
   end
 
-  # Internal
+  # Internal helpers
 
   defp save(filename, map) do
     list =
