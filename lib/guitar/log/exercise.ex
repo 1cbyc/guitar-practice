@@ -56,7 +56,7 @@ defmodule Guitar.Log.Exercise do
   end
 
   @doc """
-  Returns bpm with optional slowdown
+  Returns bpm with optional slowdown factor
   """
   @spec bpm_to_string(exercise()) :: String.t()
   def bpm_to_string(e) do
