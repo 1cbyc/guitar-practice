@@ -42,7 +42,7 @@ defmodule Guitar.Command.Play do
       |> Enum.map(&Guitar.Log.Exercise.alternate(&1))
 
     s = if length(scheduled) != 1, do: "s", else: ""
-    IO.puts("Found #{length(scheduled)} exercise#{s} to be played today")
+    IO.puts("Found #{length(scheduled)} exercise#{s} to practice today")
 
     scheduled
     |> Enum.map(fn ex ->
