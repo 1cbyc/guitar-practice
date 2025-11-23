@@ -13,6 +13,7 @@ defmodule Guitar.Command.List do
         entries |> Enum.take(count)
       end
 
+    # Format entries as strings
     string_entries =
       last_entries
       |> Enum.map(&to_string/1)
