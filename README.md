@@ -1,6 +1,6 @@
 # Guitar
 
-Manage your guitar practice routine with an Elixir CLI tool.
+Manage your guitar practice routine with an Elixir CLI tool. Built this for my kid bro some months ago - it's efficient and works well.
 
 ## Installation
 
