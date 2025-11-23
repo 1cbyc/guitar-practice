@@ -47,6 +47,7 @@ defmodule Guitar.CLI do
       exit(:normal)
     end
 
+    # Route to appropriate command handler
     command_fn =
       case List.first(args) do
         "play" -> &Guitar.Command.Play.run/2
