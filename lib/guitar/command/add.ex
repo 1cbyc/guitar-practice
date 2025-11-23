@@ -16,11 +16,11 @@ defmodule Guitar.Command.Add do
         nil -> nil
       end
 
-    if !name do
+    unless name do
       raise ArgumentError, message: "--name is a required option"
     end
 
-    if !bpm do
+    unless bpm do
       raise ArgumentError, message: "--bpm is a required option"
     end
 
