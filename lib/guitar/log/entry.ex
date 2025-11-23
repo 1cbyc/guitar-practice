@@ -22,7 +22,7 @@ defmodule Guitar.Log.Entry do
 
   @spec compare(entry(), entry()) :: :lt | :gt | :eq
   def compare(a, b) do
-    # Descending order
+    # Sort in descending order (newest first)
     Date.compare(b.date, a.date)
   end
 end
